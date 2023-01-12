@@ -23,4 +23,4 @@ jobs:
       with:
         server: ftp://31.31.196.24
         username: u1899029_deploy
-        password: ${{ secrets.:2.~N\AY?-yh,`k& }}
+        password: ${{ secrets.password }}
