@@ -24,5 +24,5 @@ jobs:
         server: 31.31.196.24
         username: u1899029_deploy
         password: ${{ secrets.U1899029_DEPLOY }}
-        local-dir: ./build
+        local-dir: ./build/
         server-dir: /www/окнавкруг.рф/
