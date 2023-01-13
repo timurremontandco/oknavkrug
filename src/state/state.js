@@ -5,6 +5,11 @@ import item_2 from "./../assets/images/before-after/1/2.jpg";
 import item_5 from "./../assets/images/before-after/1/5.jpg";
 import item_6 from "./../assets/images/before-after/1/6.jpg";
 
+// gallery 3
+
+import item_61 from "./../assets/images/before-after/3/1.jpg";
+import item_62 from "./../assets/images/before-after/3/2.jpg";
+import item_63 from "./../assets/images/before-after/3/3.jpg";
 
 // gallery 4
 
@@ -13,12 +18,27 @@ import item_32 from "./../assets/images/before-after/4/2.jpg";
 import item_34 from "./../assets/images/before-after/4/4.jpg";
 import item_35 from "./../assets/images/before-after/4/5.jpg";
 
-
 // gallery 7
 
 import item_91 from "./../assets/images/before-after/7/1.jpeg";
 import item_1007 from "./../assets/images/before-after/7/16.jpeg";
 import item_1008 from "./../assets/images/before-after/7/17.jpeg";
+
+// gallery 2
+
+import item_41 from "./../assets/images/before-after/2/1.jpg";
+import item_42 from "./../assets/images/before-after/2/2.jpg";
+import item_44 from "./../assets/images/before-after/2/5.jpeg";
+import item_45 from "./../assets/images/before-after/2/7.jpeg";
+
+// gallery 8
+
+import item_51 from "./../assets/images/before-after/8/1.jpeg";
+import item_52 from "./../assets/images/before-after/8/4.jpeg";
+import item_54 from "./../assets/images/before-after/8/5.jpeg";
+import item_55 from "./../assets/images/before-after/8/6.jpeg";
+
+
 
 export const galeryImages = {
   images_1: [
@@ -113,6 +133,100 @@ export const galeryImages = {
     {
       original: item_1008,
       thumbnail: item_1008,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    }
+  ],
+  images_2: [
+    {
+      original: item_41,
+      thumbnail: item_41,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_42,
+      thumbnail: item_42,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_44,
+      thumbnail: item_44,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_45,
+      thumbnail: item_45,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    }
+  ],
+  images_8: [
+    {
+      original: item_51,
+      thumbnail: item_51,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_52,
+      thumbnail: item_52,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_54,
+      thumbnail: item_54,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_55,
+      thumbnail: item_55,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+  ],
+  images_3: [
+    {
+      original: item_61,
+      thumbnail: item_61,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_62,
+      thumbnail: item_62,
+      originalHeight: '350px',
+      originalWidth: '350px',
+      thumbnailWidth: "35px",
+      thumbnailHeight: "35px",
+    },
+    {
+      original: item_63,
+      thumbnail: item_6,
       originalHeight: '350px',
       originalWidth: '350px',
       thumbnailWidth: "35px",

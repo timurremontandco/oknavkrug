@@ -35,6 +35,18 @@ export const Examples = () => {
         <div className={classes.beforeSliderContaner}>
           <ImageGallery items={galeryImages.images_7} />
         </div>
+
+        <div className={classes.beforeSliderContaner}>
+          <ImageGallery items={galeryImages.images_2} />
+        </div>
+
+        <div className={classes.beforeSliderContaner}>
+          <ImageGallery items={galeryImages.images_8} />
+        </div>
+        
+        <div className={classes.beforeSliderContaner}>
+          <ImageGallery items={galeryImages.images_3} />
+        </div>
       </div>
     </div>
   );

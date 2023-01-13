@@ -25,15 +25,17 @@ const App = () => {
   };
 
   const info = () => {
-    return Modal.info({
+    return Modal.success({
       title: "Мы готовы ответить на все интересующие Вас вопросы по телефону:",
       content: (
         <div>
           <h4>+7 995 094 46 94</h4>
         </div>
       ),
+      okText: "Позвонить",
       onOk: () => setOpened(false),
       visible: opened,
+      okButtonProps: { href: "tel:+79950944694" },
     });
   };
 

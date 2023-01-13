@@ -2,7 +2,7 @@ import classes from "./../styles.module.scss";
 import { Image } from "antd";
 import tg from "./../assets/images/icons/telegram.svg";
 import wa from "./../assets/images/icons/messages.svg";
-import logo from "./../assets/images/icons/logo.svg";
+import logo from "./../assets/images/icons/logo.png";
 
 export const Footer = () => {
 
@@ -27,7 +27,6 @@ export const Footer = () => {
           <a href="#home">
             <Image
               preview={false}
-              style={{...imageStyle, width: '90px'}}
               width={150}
               src={logo}
             />

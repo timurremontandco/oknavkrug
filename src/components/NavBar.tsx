@@ -8,21 +8,23 @@ import { Button, Image, Modal } from "antd";
 import { useState } from "react";
 import classes from "./../styles.module.scss";
 import { BurgerMenu } from "./BurgerMenu";
-import logo from "./../assets/images/icons/logo.svg";
+import logo from "./../assets/images/icons/logo.png";
 
 export const NavBar = () => {
   const [opened, setOpened] = useState(false);
 
   const info = () => {
-    return Modal.info({
+    return Modal.success({
       title: "Мы готовы ответить на все интересующие Вас вопросы по телефону:",
       content: (
         <div>
           <h4>+7 995 094 46 94</h4>
         </div>
       ),
+      okText: "Позвонить",
       onOk: () => setOpened(false),
       visible: opened,
+      okButtonProps: { href: "tel:+79950944694" },
     });
   };
   return (
@@ -47,9 +49,13 @@ export const NavBar = () => {
         >
           <FormOutlined /> Контакты
         </a>
-        <Button style={{backgroundColor: '#FED036', color: '#3E3E3E'}} onClick={info} type="primary">
+        <Button
+          style={{ backgroundColor: "#FED036", color: "#3E3E3E" }}
+          onClick={info}
+          type="primary"
+        >
           <PhoneOutlined />
-          +7 995 094 46 94
+          <span style={{fontWeight: 'bold'}}>+7 995 094 46 94</span>
         </Button>
       </div>
     </div>
