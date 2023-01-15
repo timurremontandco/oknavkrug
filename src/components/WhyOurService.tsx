@@ -27,7 +27,7 @@ export const WhyOurService = () => {
       <div className={classes.whyOurService}>
         <div style={{ maxWidth: "220px" }} className={classes.card}>
           <img alt="example" src={bestPrice} />
-          <p>Работа без предоплаты</p>
+          <p>Индивидуальный подход к каждому клиенту</p>
         </div>
         <div style={{ maxWidth: "220px" }} className={classes.card}>
           <img alt="example" src={gdpr} />

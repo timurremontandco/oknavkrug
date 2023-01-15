@@ -17,6 +17,7 @@ export const Footer = () => {
     width: "40px",
     height: "40px",
     cursor: "pointer",
+    margin: "8px 14px"
   };
 
   return (
