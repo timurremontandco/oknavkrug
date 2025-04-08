@@ -48,6 +48,6 @@ jobs:
 
         password: ${{ secrets.FTP_PASSWORD }}
 
-        local-dir: /build/
+        local-dir: ./build/
 
-        server-dir: / # Deploy to the root directory
+        server-dir: ./
