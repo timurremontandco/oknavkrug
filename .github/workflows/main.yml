@@ -1,16 +1,20 @@
-name: Deploy para GitHub Pages
+name: FTP Test
+
 on:
-push:
-  branches: [master]
+  push:
+    branches: [master]
+
 jobs:
-deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
-    - run: npm install && npm run build
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        publish_dir: ./dist
+  deploy:
+    name: 🚀 Deploy website every commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      - name: 📂 Sync files
+        uses: ./
+        with:
+          server: ftp.samkirkland.com
+          username: test@samkirkland.com
+          password: ${{ secrets.ftp_password }}
