@@ -48,7 +48,7 @@ const App = () => {
         <Button onClick={handleToTopClick} color="green" className={classes.toTopBtn}>
           <VerticalAlignTopOutlined style={{ fontSize: 18, left: 35, color: '#FFF' }} />
         </Button>
-        {/* <Layout> */}
+
           <NavBar />
           <Content>
             <Hero />
@@ -59,7 +59,7 @@ const App = () => {
             <FeedBacks />
             <Questions />
           </Content>
-        {/* </Layout> */}
+
       </div>
       <Footer />
     </>
