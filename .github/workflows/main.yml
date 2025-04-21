@@ -50,4 +50,4 @@ jobs:
 
         local-dir: ./build/
 
-        server-dir: ./www/xn--80aedzcpfv1a.xn--p1ai/
+        server-dir: ./www/
